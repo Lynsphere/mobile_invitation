@@ -1,0 +1,169 @@
+/* 초기화 */
+* {margin: 0; padding: 0;}
+li {list-style-type: none;}
+a {text-decoration: none;}
+html, body { height: 100%; }
+body {
+    font-family: 'Nanum Myeongjo', serif;
+    background: #fcfaf8;
+}
+
+/* 나눔고딕 */
+.font_sans { font-family: 'Nanum Gothic', sans-serif; }
+
+
+/* 1페이지 */
+#p1_main {
+    background: linear-gradient(to bottom, #ede8e5 0%,#fcfaf8 100%);
+    text-align: center;
+    /* outline: 1px solid red; */
+}
+#main_info{
+    padding-top: 53px;
+    text-align: center;
+    /* outline: 1px solid green; */
+}
+.bar1 {
+    display: inline-block;
+    width: 72px;
+    height: 90px;
+    background-image: url("../imgs/head_bar.png");
+    background-size: cover;
+    /* outline: 1px solid red; */
+    margin-bottom: 40px;
+}
+
+#main_info  h1 {
+    font-size: 30px;
+    line-height: 38px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+#main_img img{
+    width: 100%;
+}
+#main_info h3, #main_info p {
+    font-size: 16px;
+}   
+#main_info h3 {
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+#main_info p  {
+    margin-bottom:30px;   
+}
+#p1_main address {
+    margin-top: 42px;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 24px;
+}
+
+/* 2페이지 */
+#p2_article {
+    text-align: center;
+    /* outline:2px solid green; */
+    margin-top: 121px;
+}
+#p2_article > .main_article {
+    font-size: 12px;
+    line-height: 24px;
+    margin-bottom: 83px;
+    /* outline: 1px solid red; */
+}
+.article_bar:first-child{
+    margin-bottom: 25px;
+}
+.article_bar:last-child{
+    margin-top: 25px;
+}
+.name {
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 86px;
+}
+.tel {
+    background: #645953;
+    padding: 12px 0;
+    font-size: 12px;
+    color:#fff;
+    font-weight: bold;
+}
+#p2_article > div:nth-last-child(2) {
+    margin-bottom: 8px;
+}
+/* 3페이지 */
+#p3_photo {
+    margin-top: 108px;
+    text-align: center;
+    /* outline: 1px solid red; */
+}
+#p3_photo > h2 {
+    font-size: 16px;
+    /* margin-bottom: 43px; */
+}
+.imgs { 
+    width: 100%;
+    margin-bottom: 21px;
+ }
+ #p3_photo > .imgs:last-child {
+     margin-bottom: 0;
+ }
+/* 4페이지 */
+#p4_info {
+    background: linear-gradient(to bottom, #fcfaf8 0%,#f0edea 100%);
+    margin-top: 43px;
+    text-align: center;
+}
+#p4_info > h2 {
+    font-size: 16px;
+    /* margin-bottom: 40px; */
+}
+#map {
+    width: 100%;
+    /* outline: 1px solid red; */
+}
+#sub_info > div {
+    font-size: 12px;
+    text-align: left;
+   /*  margin-left: 46px; */
+   margin-left: calc(50% - 146px);
+}
+#metro > img, #bus > img {
+    width: 16px;
+    height: 16px;
+    margin-bottom: 8px;
+    padding-left: 138px;
+}
+#sub_info p {
+    line-height: 18px;
+}
+#metro { margin-bottom: 30px; }
+#p4_info > address {
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 55px;
+    padding-bottom: 55px;
+    line-height: 24px;
+   /* outline: 1px solid red; */
+}
+#p4_info > footer {
+    display: inline-block;
+    width: 183px;
+    height: 18px;
+    background-image: url('../imgs/footer_bar.png');
+    background-size: cover;
+   /* outline: 1px solid green; */
+    font-size: 12px;
+    line-height: 19px;
+    padding-left: 10px;
+    padding-right: 8px;
+    margin: 55px 0;
+}
+.sub_bar1{
+    padding-bottom: 8px;
+}
+.sub_bar2{
+    padding-top: 8px;
+    margin-bottom: 40px;
+}
