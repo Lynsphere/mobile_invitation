@@ -25,8 +25,8 @@ body {
 }
 .bar1 {
     display: inline-block;
-    width: 72px;
-    height: 90px;
+    width: 73px;
+    height: 93px;
     background-image: url("../imgs/head_bar.png");
     background-size: cover;
     /* outline: 1px solid red; */
